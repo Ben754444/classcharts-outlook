@@ -19,3 +19,11 @@ to get the value of most variables below, you need to login to the applicable se
 | `DAYS_TO_FETCH` | number of days to copy (includes weekends and the 31st day of every month) |
 
 
+# running
+```bash
+pipenv install
+```
+    
+```bash
+pipenv run python main.py
+```
