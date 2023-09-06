@@ -1,0 +1,19 @@
+ // vscode launch.json
+{
+    "configurations": [
+        {
+            "name": "Python: Pipenv",
+            "type": "python",
+            "request": "launch",
+            "module": "pipenv",
+            "args": [
+                "run",
+                "python",
+                "${workspaceFolder}/main.py"
+            ],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}
